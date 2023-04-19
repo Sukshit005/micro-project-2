@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+
+    <h1 id="headder">COUNTER APP</h1>
+    
+    <h1 id="count">0</h1>
+    <div class="bottom">
+    
+        <div  class="increment">
+            <span> INCREMENT VALUE</span>
+            <input type="button" id="increment1" value="Increase by 1" onclick="increment1()">
+            <input type="button"  id="increment5" value="Increase by 5" onclick="increment5()">
+            <input type="button"  id="increment10" value="Increase by 10" onclick="increment10()">
+            <input type="number"  id="number-text1" placeholder="Enter the number">
+            <input type="button"  id="increment-ip" value="Select to Increase the Input Value" onclick="incrementip()">
+        </div>
+
+        <div class="reset">
+            <input type="button" id="reset" value="Reset The Value" onclick="reset()">
+        </div>
+    
+        <div class="decrement">
+            <span>DECREMENT VALUE</span>
+            <input type="button" id="decrement1" value="Decrease by 1" onclick="decrement1()">
+            <input type="button" id="decrement5" value="Decrease by 5" onclick="decrement5()">
+            <input type="button" id="decrement10" value="Decrease by 10" onclick="decrement10()">
+            <input type="number" id="number-text2" placeholder="Enter the number">
+            <input type="button" id="decrement-ip" value="Select to Decrease the Input Value" onclick="decrementip()">
+        </div>
+    
+    </div>  
+    
+    
+    <script src="index.js"></script>
+
+   
+    
+    
+    
+</body>
+
+</html>
